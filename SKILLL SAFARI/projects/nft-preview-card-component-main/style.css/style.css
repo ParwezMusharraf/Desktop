@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --clr-Soft-blue: hsl(215, 51%, 70%);
+  --clr-Cyan: hsl(178, 100%, 50%);
+  --clr-Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --clr-Very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --clr-Very-dark-blue-line: hsl(215, 32%, 27%);
+  --clr-White: hsl(0, 0%, 100%);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.image {
+  
+ 
+  border-radius: 14px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--clr-Very-dark-blue-main-BG);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container1 {
+    
+  padding: 2rem;
+  background-color: var(--clr-Very-dark-blue-card-BG);
+  border-radius: 14px;
+  gap: 16px;
+
+  width: 20rem;
+  height: 31rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.details{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.heading {
+  color: var(--clr-White);
+}
+
+.paragraph {
+  color: var(--clr-Soft-blue);
+}
+
+.rightcontainer {
+  display: flex;
+  gap: 10px;
+}
+.leftcontainer{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.eth {
+  color: var(--clr-Cyan);
+}
+
+.days {
+  color: var(--clr-Soft-blue);
+}
+
+.line {
+  width: 17rem;
+  border-top: 1px solid var(--clr-Very-dark-blue-line);
+}
+
+.avathar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--clr-White);
+}
+
+
+.clock {
+  width: 1rem;
+  height: 1rem;
+}
+
+.bigcontainer {
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.author{
+    color: var(--clr-White);
+}
+.author2{
+    color: var(--clr-Soft-blue);
+
+
+}
+
+.author2:hover {
+    color: var(--clr-Cyan);
+    cursor: pointer;
+}
+
+.heading:hover {
+    color: var(--clr-Cyan);
+    cursor: pointer;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .3s ease;
+    backface-visibility: hidden;
+}
+
+.image:hover {
+    opacity: 0.3;
+
+}
+
